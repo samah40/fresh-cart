@@ -9,7 +9,6 @@ import Categories from "./components/Categories/Categories"
 import Brands from "./components/Brands/Brands"
 import AuthContextProvider from "./Context/Authcontext"
 import ProtectedRoute from "./components/ProtectedRoute/ProtectedRoute"
-import Unauthenticated from "./components/unauthenticated/unauthenticated"
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import ProductDetails from "./components/ProductDetails/ProductDetails"
 import { Offline } from "react-detect-offline"
@@ -25,6 +24,7 @@ import WishListProvider from "./Context/WishListcontext"
 import ForgetPassword from "./components/ForgetPassword/ForgetPassword"
 import VerifyCode from "./components/VerifyCode/VerifyCode"
 import ResetPassword from "./components/ResetPassword/ResetPassword"
+import Unauthenticated from "./components/Unauthenticated/Unauthenticated"
 
 
 
